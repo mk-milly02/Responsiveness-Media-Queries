@@ -99,8 +99,94 @@
         background-color: hsl(154, 59%, 51%);
     }
 
+    .footer {
+        display: flex; 
+        flex-direction: row; 
+        align-content: center; 
+        justify-content: center;
+    }
+
+    .fp {
+        color: hsl(246, 25%, 77%); 
+        font-size: 11px;
+    }
+
+    .sp {
+        color: hsl(0, 100%, 74%); 
+        font-size: 11px; 
+        margin-left: 5px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
-    
+
+    body {
+        background-image: url(Images/bg-intro-mobile.png);
+        background-color: hsl(0, 100%, 74%);
+        margin: 0px;
+        padding: 20px;
+        font-family: "Poppins";
+    }
+
+    .div-main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .div-left {
+        width: 100%;
+        color: white;
+        display: flex;
+        text-align: center;
+    }
+
+    .div-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-ad {
+        height: 50px;
+        background-color: hsl(249, 10%, 26%);
+        width:100%;
+        color: white;
+        border-radius: 10px;
+        margin: 0 auto;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 14px;
+    }
+
+    .div-form {
+        width: 100%;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+    }
+
+    .footer {
+        display: flex; 
+        flex-direction: row; 
+        align-content: center; 
+        justify-content: center;
+    }
+
+    .fp {
+        color: hsl(246, 25%, 77%); 
+        font-size: 7px;
+    }
+
+    .sp {
+        color: hsl(0, 100%, 74%); 
+        font-size: 7px; 
+        margin-left: 5px;
+    }
 }
